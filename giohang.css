@@ -1,0 +1,85 @@
+* {
+    font-family: Georgia, serif;
+    background-color: rgba(255, 246, 195, 0.072);
+}
+
+h1 {
+    font-size: 40pt;
+    color: rgb(255, 198, 211);
+    padding: 10px;
+}
+
+.tieudetb {
+    font-size: 17pt;
+    color: rgb(87, 154, 176);
+}
+
+.hinh {
+    width: 150px;
+    height: 160px;
+    background-color: rgba(224, 224, 224, 0.39);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hinh:hover {
+    background-color: rgba(87, 154, 176, 0.582);
+    cursor: pointer;
+}
+
+button {
+    width: 70px;
+    border: none;
+    border-radius: 7px;
+    margin: 3.5px;
+    font-size: 13pt;
+    font-weight: bold
+}
+
+
+.chon {
+    padding: 5px;
+    background-color: rgb(0, 129, 201);
+    color: aliceblue;
+}
+
+.xoa {
+    padding: 5px;
+    background-color: rgb(235, 69, 95);
+    color: aliceblue;
+}
+
+.xoa:hover {
+    background-color: rgba(87, 154, 176, 0.584);
+    color: rgb(235, 69, 95);
+}
+
+.chon:hover {
+    background-color: rgba(87, 154, 176, 0.584);
+    color: rgb(0, 129, 201);
+}
+
+
+.thanhtoan {
+    width: 100%;
+    text-align: center;
+}
+
+.thanhtoan .btn {
+    width: 150px;
+}
+
+.ten {
+    line-height: 160px;
+}
+
+.gia {
+    line-height: 160px;
+}
+
+input {
+    border: 0.5px solid grey;
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+}

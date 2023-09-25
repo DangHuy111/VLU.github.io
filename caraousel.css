@@ -1,0 +1,121 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .featurette-divider {
+    margin: 5rem 0;
+  }
+
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.05rem;
+  }
+  
+  @media (min-width: 40em) {
+
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+header{
+    margin-top: -50px;
+}
+
+.row img{
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.31), 0 2px 20px 0 rgba(0, 0, 0, 0.384);
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.row .btn{
+background-color: rgb(244, 132, 132);
+}
+
+.row .btn:hover{
+  background-color: rgb(214, 19, 85);
+  color: rgb(255, 255, 255);
+  width: 100px;
+}
+ 
+.featurette img{
+  width: 500px;
+  height: 500px;
+}
+
+footer{
+  margin-bottom: -50px;
+}
+
+h6{
+  color: rgb(242, 205, 92);
+  font-weight: bold;
+}
+
+.col-md-3 a i:hover{
+  color: rgb(244, 132, 132);
+}
+
+.col-md-3 a{
+  text-decoration: none;
+}
+
+.col-md-3 p:hover{
+  margin-left: 3px;
+  transition: 0.2s;
+}
+
+.col-md-2 a{
+  text-decoration: none;
+}
